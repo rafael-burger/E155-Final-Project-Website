@@ -20,7 +20,7 @@ The TSC was configured to perform the charge/discharge cycles, and testing was p
 ## MCU Block Diagram
 
 <p align = "center">
-<img src = "assets/img/mcuBDpng.png" alt = "mcuBd" width = "600"/>
+<img src = "assets/img/mcuBD.png" alt = "mcuBD" width = "600"/>
 </p>
 
 # FPGA Design
