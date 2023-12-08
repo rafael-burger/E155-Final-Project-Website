@@ -9,7 +9,7 @@ permalink: /design/
 ## MCU Block Diagram
 
 <p align = "center">
-<p src = "./assets/img/mcuBDpng.png" alt = "mcuBd" width = "600"/>
+<img src = "./assets/img/mcuBDpng.png" alt = "mcuBd" width = "600"/>
 </p>
 
 # FPGA Design
