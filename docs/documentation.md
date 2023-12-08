@@ -8,9 +8,9 @@ permalink: /doc/
 ## Static Assembly
 <!-- Include images of the schematics for your system. They should follow best practices for schematic drawings with all parts and pins clearly labeled. You may draw your schematics either with a software tool or neatly by hand. -->
 
-![MCU_ESP_schematic](./assets/img/MCU_ESP_schem)
-![TSC_schematic](./assets/img/TSC_schem)
-![M_driver_schem](./assets/img/M_driver_schem)
+![MCU_ESP_schematic](./assets/schematics/MCU_ESP_schem)
+![TSC_schematic](./assets/schematics/TSC_schem)
+![M_driver_schem](./assets/schematics/M_driver_schem)
 # Source Code Overview
 <!-- This section should include information to describe the organization of the code base and highlight how the code connects. -->
 
