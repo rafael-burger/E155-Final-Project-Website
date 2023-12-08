@@ -7,7 +7,7 @@ exclude: true
 
 # Project Abstract
 <p align = "center">
-<img src="./assets/img/IMG_1737.jpg" alt="cube_im" width="200"/>
+<img src="./assets/img/IMG_1737.jpg" alt="cube_im" width="300"/>
 </p>
 
 This website presents the ENGR-155 project completed by Rafael Burger and Tjaard Van Löben Sels. This project aimed to provide a platform for displaying three-dimensional images. To achieve this effect, a two-dimensional array of LEDs was spun quickly along its long axis such that the plane of LEDs traced out a cylindrical volume. This LED array was then updated at many steps during each rotation to generate the desired image. An Ice40 FPGA was used to drive LED array updates and a STM32 microcontroller was used to control the spin rate and monitor for user feedback. Two ESP32 WiFi modules were used to facilitate wireless communication between the stationary components (microcontroller, user input circuit) and the spinning ones (FPGA, LED array).
