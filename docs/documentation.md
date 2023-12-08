@@ -20,10 +20,18 @@ The source code for the project is located in the Github repository [here](https
 | ---- | ----------- | ----- | ---- | ---- |
 | Adafruit LED Array| 420 | 1 | $24.95 | [link](V_mQBiwXkTzIjjnVmYri2RjMWfYC0OBoC99sQAvD_BwE)
 | Nucleo-32 Board |  Nucleo-L432KC | 1 | $10.32 |  [link](https://www.st.com/en/evaluation-tools/nucleo-l432kc.html#sample-buy)|
-| Upduino FPGA Board | Upduino v3.1 | 1 | 30.00 | [link](https://tinyvision.ai/products/upduino-v3-1)|
-| ESP32 Board | ESP32-WROOM-32 | 2 | 9.99 | [link](https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z) |
-| Power Mosfet | IPB144N12N3GATMA1 | 4 | 1.97 | [link](https://www.digikey.com/en/products/detail/infineon-technologies/IPB144N12N3GATMA1/2338056?s=N4IgTCBcDaIIwBYEDs5mSAugXyA) |
-| Dual Op Amp | MCP6002-I/P | 1 | 0.44 | [link](https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-I-P/500875) |
+| Upduino FPGA Board | Upduino v3.1 | 1 | $30.00 | [link](https://tinyvision.ai/products/upduino-v3-1)|
+| ESP32 Board | ESP32-WROOM-32 | 2 | $9.99 | [link](https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z) |
+| Variable Power Supply | DROK 24V Power Supply | 1 | $39.99 | [link](https://www.amazon.com/Adjustable-DROK-110V-220V-Switching-Transformer/dp/B08GFSVHLS/ref=sr_1_3_pp?keywords=adjustable%2Bdc%2Bpower%2Bsupply&qid=1702058074&sr=8-3&th=1) |
+| ---- | ----------- | ----- | ---- | ---- |
+| ---- | ----------- | ----- | ---- | ---- |
+| ---- | ----------- | ----- | ---- | ---- |
+| ---- | ----------- | ----- | ---- | ---- |
+
+
+| Power Mosfet | IPB144N12N3GATMA1 | 4 | $1.97 | [link](https://www.digikey.com/en/products/detail/infineon-technologies/IPB144N12N3GATMA1/2338056?s=N4IgTCBcDaIIwBYEDs5mSAugXyA) |
+| Dual Op Amp | MCP6002-I/P | 1 | $0.44 | [link](https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-I-P/500875) |
+
 
 
 **Total cost: $14.95**
