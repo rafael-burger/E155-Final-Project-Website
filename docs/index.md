@@ -8,7 +8,7 @@ exclude: true
 # Test
 
 <div style="text-align: left">
-  <img src="./assets/img/IMG_1737.jpg" alt="im" width="200" />
+  <img src="./assets/img/IMG_1737.jpg" alt="im" width="50" />
 </div>
 
 # Project Abstract
