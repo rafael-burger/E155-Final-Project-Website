@@ -10,6 +10,7 @@ permalink: /doc/
 
 ![MCU_ESP_schematic](./assets/schematics/MCU_ESP_schem.png)
 ![TSC_schematic](./assets/schematics/TSC_schem.png)
+note: Cx capacitors of the input circuit represent the capacitance of the floating electrodes, so value is unspecified. 
 ![M_driver_schem](./assets/schematics/M_driver_schem.png)
 ## Spinning Assembly
 ![Spinning_assembly_schem](./assets/schematics/FPGA_schem.png)
