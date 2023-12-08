@@ -7,7 +7,9 @@ exclude: true
 
 # Test
 
-![image](./assets/img/IMG_1737.jpg)
+<div style="text-align: left">
+  <img src="./assets/img/IMG_1737.jpg" alt="im" width="200" />
+</div>
 
 # Project Abstract
 
