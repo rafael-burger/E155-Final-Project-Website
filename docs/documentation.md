@@ -7,10 +7,9 @@ permalink: /doc/
 # Schematics
 <!-- Include images of the schematics for your system. They should follow best practices for schematic drawings with all parts and pins clearly labeled. You may draw your schematics either with a software tool or neatly by hand. -->
 # Source Code Overview
-<p align = "center">
-<img src="./assets/img/MCU_schem.png" alt="cube_im" width="600"/>
-</p>
 <!-- This section should include information to describe the organization of the code base and highlight how the code connects. -->
+
+This project contains code for an Ice40UP5k FPGA (SystemVerilog), An STM32L432KCU MCU (C code), and two ESP32s (Arduino). 
 
 The source code for the project is located in the Github repository [here](https://github.com/joshbrake/example-project-portfolio/tree/main/src).
 
@@ -19,6 +18,11 @@ The source code for the project is located in the Github repository [here](https
 
 | Item | Part Number | Quantity | Unit Price | Link |
 | ---- | ----------- | ----- | ---- | ---- |
-| Adafruit VL53L0X Time of Flight Distance Sensor |  3317 | 1 | $14.95 |  [link](https://www.adafruit.com/product/3317) |
+| Nucleo-32 Board |  Nucleo-L432KC | 1 | $10.32 |  [link]([https://www.st.com/en/evaluation-tools/nucleo-l432kc.html#sample-buy])|
+| Upduino FPGA Board | Upduino v3.1 | 1 | 30.00 | [link] ([https://tinyvision.ai/products/upduino-v3-1])|
+| ESP32 Board | ESP32-WROOM-32 | 2 | 9.99 | [link]([https://www.amazon.com/HiLetgo-ESP-WROOM-32-Development-Microcontroller-Integrated/dp/B0718T232Z]) |
+| Power Mosfet | IPB144N12N3GATMA1 | 4 | 1.97 | [link]([https://www.digikey.com/en/products/detail/infineon-technologies/IPB144N12N3GATMA1/2338056?s=N4IgTCBcDaIIwBYEDs5mSAugXyA]) |
+| Dual Op Amp | MCP6002-I/P | 1 | 0.44 | [link]([]https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-I-P/500875) |
+
 
 **Total cost: $14.95**
