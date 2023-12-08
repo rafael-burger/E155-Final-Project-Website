@@ -34,10 +34,11 @@ The source code for the project is located in the Github repository [here](https
 | Power Mosfet | IPB144N12N3GATMA1 | 4 | $1.97 | [link](https://www.digikey.com/en/products/detail/infineon-technologies/IPB144N12N3GATMA1/2338056?s=N4IgTCBcDaIIwBYEDs5mSAugXyA) |
 | Dual Op Amp | MCP6002-I/P | 1 | $0.44 | [link](https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-I-P/500875) |
 | Phototransistor | BPW77NA | 1 | $3.45 | [link](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/BPW77NA/1681154) |
-| ---- | ----------- | ----- | ---- | ---- |
+| LiPo Battery | Blomilky 7.4V 2200 mAh | 1 | $17.50 | [link](https://www.amazon.com/dp/B08T1V2X9D?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
+| Solder Board | DKS-SOLDERBREAD-02 | 4 | $1.48 | [link](https://www.digikey.com/en/products/detail/digikey/DKS-SOLDERBREAD-02/15970925) | 
+| 8020 Aluminum Extrusion | 47065T101 | 13" | $7.85 | [link](https://www.mcmaster.com/products/~/rail-height~1/t-slotted-framing-rails-4/?s=80202) |
 
 
 
 
-
-**Total cost: $14.95**
+**Total cost: $ **
