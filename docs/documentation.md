@@ -13,7 +13,7 @@ permalink: /doc/
 
 This project contains code for an Ice40UP5k FPGA (SystemVerilog), An STM32L432KCU MCU (C code), and two ESP32s (Arduino). 
 
-The source code for the project is located in the Github repository [here](https://github.com/joshbrake/example-project-portfolio/tree/main/src).
+The source code for the project is located in the Github repository [here](https://github.com/rafael-burger/led-display).
 
 # Bill of Materials
 <!-- The bill of materials should include all the parts used in your project along with the prices and links.  -->
