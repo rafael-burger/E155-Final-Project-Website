@@ -24,5 +24,19 @@ The TSC was configured to perform the charge/discharge cycles, and testing was p
 </p>
 
 # FPGA Design
-
+The FPGA controls the output image of the volumetric display. The output is generated in 64 LED updates per array rotation, which are handled through two sub-systems: an equation checker and a contrl FSM. 
+## Equation Checker
+The desired image to be displayed is set in the equation checker. During each LED update, the equation checker evaluates whether each pixel should be on or off based on the current position of the LED array and the desired shape. Currently, arbitrary images are not supported, as the desired image must be inputted through mathematical functions (which makes geometric shapes ideal). 
+## Control FSM
+The control FSM cycles between a number of states that handle the operations necessary to drive the LED array. The state transition diagram below highlights the organization of these states. 
+![state_transition_diagram](./assets/img/FSM_statetransition.png)
+### INIT
+### PRE
+### DATA
+### LATCH
+### OUTPUT
+### DATA
+### LEDWAIT
+# Mechanical Design
+![mech_design](./assets/img/setup_img)
 ## FPGA Block Diagram

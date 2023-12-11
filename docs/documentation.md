@@ -34,9 +34,17 @@ The source code for the project is located in the Github repository [here](https
 | Power Mosfet | IPB144N12N3GATMA1 | 4 | $1.97 | [link](https://www.digikey.com/en/products/detail/infineon-technologies/IPB144N12N3GATMA1/2338056?s=N4IgTCBcDaIIwBYEDs5mSAugXyA) |
 | Dual Op Amp | MCP6002-I/P | 1 | $0.44 | [link](https://www.digikey.com/en/products/detail/microchip-technology/MCP6002-I-P/500875) |
 | Phototransistor | BPW77NA | 1 | $3.45 | [link](https://www.digikey.com/en/products/detail/vishay-semiconductor-opto-division/BPW77NA/1681154) |
+| Toggle Switch | 100SP1T1B1M2QEH | 2 | $2.96 | [link](https://www.digikey.com/en/products/detail/e-switch/100SP1T1B1M2QEH/378821) |
 | LiPo Battery | Blomilky 7.4V 2200 mAh | 1 | $17.50 | [link](https://www.amazon.com/dp/B08T1V2X9D?psc=1&ref=ppx_yo2ov_dt_b_product_details) |
 | Solder Board | DKS-SOLDERBREAD-02 | 4 | $1.48 | [link](https://www.digikey.com/en/products/detail/digikey/DKS-SOLDERBREAD-02/15970925) | 
 | 8020 Aluminum Extrusion | 47065T101 | 13" | $7.85 | [link](https://www.mcmaster.com/products/~/rail-height~1/t-slotted-framing-rails-4/?s=80202) |
+| 8020 L-Bracket | 47065T236 | 14 | $5.39 | [link](https://www.amazon.com/80-20-Inc-Inside-Bracket/dp/B07WTX4F46/ref=sr_1_1_sspa?crid=M00SCUFGOYZJ&keywords=8020+l+bracket&qid=1702258465&sprefix=8020+l+bracke%2Caps%2C163&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
+| 1/4-20 Hex Bolt | 92965A540 | 30 | $0.22 | [link](https://www.mcmaster.com/92965A540/) |
+| DC Motor (*) | ----------- | ----- | ---- | ---- |
+
+* This motor was found from a set of unused motors in the HMC Engineering stockroom. No specifications were available. Measured Specs: Operating voltage: 7.5V. No-load rotational speed: 3200 RPM. Torque > 1 Nm. 
+
+
 
 
 
