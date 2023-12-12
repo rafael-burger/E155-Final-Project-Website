@@ -26,12 +26,12 @@ The desired image to be displayed is set in the equation checker. During each LE
 ### Control FSM
 The control FSM cycles between a number of states that handle the operations necessary to drive the LED array. The state transition diagram below highlights the organization of these states. 
 ![state_transition_diagram](./assets/img/FSM_statetransition.png)
-INIT: Reset state, LED array output disabled. Automatically cycles to PRE state. 
-PRE: Null state entered at the beginning of every LED update state. LED array output disabled. Automatically cycles to DATA state. 
-DATA: Data loading state. LED array output disabled. Loads the data for 1 LED. Remains in Data state for 64 cycles, until the data for all LEDs in a column have been loaded. 
-LATCH: Data transmission state. LED array output disabled. Sends the LED data to the LED array. 
-OUTPUT: Output state. LED array output enabled. Remains in this state for a number of cycles determined by the desired output time. 
-DEAD: Dead-time state. LED array output disabled. Remains in this state for a number of cycles determine by the desired dead time. Note: Output time and Dead time must be compatible with the total allowable update time. 
-LED-WAIT: Waiting state. LED array output disabled. This state is included to account for any error in synchronization between LED updates and array rotation rate. FSM remains in LEDWAIT state until the rotation is completed, at which point a phototransistor produces a signal that functions as a "rotation completed" flag. This wait state ensures that the LED update process begins at the same physical location every time so that pixels do not drift. 
+INIT: Reset state, LED array output disabled. Automatically cycles to PRE state.\
+PRE: Null state entered at the beginning of every LED update state. LED array output disabled. Automatically cycles to DATA state.\
+DATA: Data loading state. LED array output disabled. Loads the data for 1 LED. Remains in Data state for 64 cycles, until the data for all LEDs in a column have been loaded.\
+LATCH: Data transmission state. LED array output disabled. Sends the LED data to the LED array.\
+OUTPUT: Output state. LED array output enabled. Remains in this state for a number of cycles determined by the desired output time.\
+DEAD: Dead-time state. LED array output disabled. Remains in this state for a number of cycles determine by the desired dead time. Note: Output time and Dead time must be compatible with the total allowable update time.\
+LED-WAIT: Waiting state. LED array output disabled. This state is included to account for any error in synchronization between LED updates and array rotation rate. FSM remains in LEDWAIT state until the rotation is completed, at which point a phototransistor produces a signal that functions as a "rotation completed" flag. This wait state ensures that the LED update process begins at the same physical location every time so that pixels do not drift.\ 
 ## FPGA Block Diagram
 ![FPGA_BD](./assets/img/FPGA_BD.png)
