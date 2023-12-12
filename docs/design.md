@@ -18,11 +18,7 @@ The motor controller interacts with the encoder listener and timers in order to 
 The touch sensing controller uses principles of capacative touch sensing to determine whether or not a user is interacting with one of the control buttons. This is done by  charging a "sensor" capacitor to Vdd and partially discharging it onto a second "sampling" capacitor. This process is repeated until the sampling capacitor voltage reaches Vdd, at which time the measurement is finished. The number of cycles required to charge the sampling capacitor to Vdd relates directly to the capacitance of the sensor capacitor. Because touching an electrode with your finger changes its capacitance this technique is applicable in touch sensing applications. 
 The TSC was configured to perform the charge/discharge cycles, and testing was performed to determine how many cycles were required in touch and no-touch cases. A threshold value of 400 cycles was selected; acquisitions with cycles < 400 are considered button presses, and acquisitions with cycles > 400 are not. 
 ## MCU Block Diagram
-
-<p align = "center">
-<img src = "assets/img/mcuBD.png" alt = "mcuBD" width = "600"/>
-</p>
-
+![mcuBD](./assets/img/mcuBD.png)
 # FPGA Design
 The FPGA controls the output image of the volumetric display. The output is generated in 64 LED updates per array rotation, which are handled through two sub-systems: an equation checker and a contrl FSM. 
 ### Equation Checker
@@ -30,19 +26,12 @@ The desired image to be displayed is set in the equation checker. During each LE
 ### Control FSM
 The control FSM cycles between a number of states that handle the operations necessary to drive the LED array. The state transition diagram below highlights the organization of these states. 
 ![state_transition_diagram](./assets/img/FSM_statetransition.png)
-### INIT
-Reset state, LED array output disabled. Automatically cycles to PRE state. 
-### PRE
-Null state entered at the beginning of every LED update state. LED array output disabled. Automatically cycles to DATA state. 
-### DATA
-Data loading state. LED array output disabled. Loads the data for 1 LED. Remains in Data state for 64 cycles, until the data for all LEDs in a column have been loaded. 
-### LATCH
-Data transmission state. LED array output disabled. Sends the LED data to the LED array. 
-### OUTPUT
-Output state. LED array output enabled. Remains in this state for a number of cycles determined by the desired output time. 
-### DEAD
-Dead-time state. LED array output disabled. Remains in this state for a number of cycles determine by the desired dead time. Note: Output time and Dead time must be compatible with the total allowable update time. 
-### LEDWAIT
-Waiting state. LED array output disabled. This state is included to account for any error in synchronization between LED updates and array rotation rate. FSM remains in LEDWAIT state until the rotation is completed, at which point a phototransistor produces a signal that functions as a "rotation completed" flag. This wait state ensures that the LED update process begins at the same physical location every time so that pixels do not drift. 
+INIT: Reset state, LED array output disabled. Automatically cycles to PRE state. 
+PRE: Null state entered at the beginning of every LED update state. LED array output disabled. Automatically cycles to DATA state. 
+DATA: Data loading state. LED array output disabled. Loads the data for 1 LED. Remains in Data state for 64 cycles, until the data for all LEDs in a column have been loaded. 
+LATCH: Data transmission state. LED array output disabled. Sends the LED data to the LED array. 
+OUTPUT: Output state. LED array output enabled. Remains in this state for a number of cycles determined by the desired output time. 
+DEAD: Dead-time state. LED array output disabled. Remains in this state for a number of cycles determine by the desired dead time. Note: Output time and Dead time must be compatible with the total allowable update time. 
+LED-WAIT: Waiting state. LED array output disabled. This state is included to account for any error in synchronization between LED updates and array rotation rate. FSM remains in LEDWAIT state until the rotation is completed, at which point a phototransistor produces a signal that functions as a "rotation completed" flag. This wait state ensures that the LED update process begins at the same physical location every time so that pixels do not drift. 
 ## FPGA Block Diagram
 ![FPGA_BD](./assets/img/FPGA_BD.png)
