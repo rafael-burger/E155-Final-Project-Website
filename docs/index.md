@@ -10,7 +10,7 @@ exclude: true
 <img src="./assets/img/IMG_1737.jpg" alt="cube_im" width="300"/>
 </p>
 
-This website presents the ENGR-155 final project completed by Rafael Burger and Tjaard Van Löben Sels. The project aimed to provide a platform for displaying images in 3 dimensions. To achieve this effect, a two-dimensional array of LEDs was spun quickly about its long axis such that the plane of LEDs traced out a cylindrical volume. This LED array was updated at 64 steps within each rotation to generate "pixels" for the desired image. An Ice40 FPGA was used to drive LED array updates and a STM32 microcontroller was used to control the spin rate and monitor user input. Two ESP32 WiFi modules were used to facilitate wireless communication between the stationary components (microcontroller, user input circuit) and the spinning ones (FPGA, LED array).
+This website presents the ENGR-155 final project completed by Rafael Burger and Tjaard Van Löben Sels. The project aimed to design and create a system for displaying 3D images. To achieve this effect, a two-dimensional array of LEDs was spun quickly about its long axis such that the plane of LEDs traced out a cylindrical volume. This LED array was updated at 64 steps within each rotation to generate "pixels" for the desired image. An Ice40 FPGA was used to drive LED array updates and a STM32 microcontroller was used to control the spin rate and monitor user input. Two ESP32 WiFi modules were used to facilitate wireless communication between the stationary components (microcontroller, user input circuit) and the spinning ones (FPGA, LED array).
 
 # Project Motivation
 
