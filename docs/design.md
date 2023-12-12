@@ -37,6 +37,6 @@ OUTPUT: Output state. LED array output enabled. Remains in this state for a numb
 \
 DEAD: Dead-time state. LED array output disabled. Remains in this state for a number of cycles determine by the desired dead time. Note: Output time and Dead time must be compatible with the total allowable update time.\
 \
-LED-WAIT: Waiting state. LED array output disabled. This state is included to account for any error in synchronization between LED updates and array rotation rate. FSM remains in LEDWAIT state until the rotation is completed, at which point a phototransistor produces a signal that functions as a "rotation completed" flag. This wait state ensures that the LED update process begins at the same physical location every time so that pixels do not drift.\ 
+LED-WAIT: Waiting state. LED array output disabled. This state is included to account for any error in synchronization between LED updates and array rotation rate. FSM remains in LEDWAIT state until the rotation is completed, at which point a phototransistor produces a signal that functions as a "rotation completed" flag. This wait state ensures that the LED update process begins at the same physical location every time so that pixels do not drift. 
 ## FPGA Block Diagram
 ![FPGA_BD](./assets/img/FPGA_BD.png)
