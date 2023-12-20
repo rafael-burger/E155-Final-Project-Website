@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Display in Action
-permalink: /Display/
+title: Results
+permalink: /Results/
 ---
 
 # Notes
